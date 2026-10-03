@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class waterbill {
+public static void main(String[] args){
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter water consumption in litres: ");
+double consumtion = scanner.nextDouble();
+int bill;
+if (consumtion <=500){
+bill = 100;
+}else{
+bill=200;
+}
+System.out.println("water bill: Rs."+ bill);
+}
+}
+
